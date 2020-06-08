@@ -1,0 +1,54 @@
+<body>
+  <main class="center">
+    <header>
+      <h1 id="title">
+        Corona Survey form</h1>
+      <p id="description">
+        Thanks for helping us to identify the victims.</p>
+      </header>
+    <div class="form">
+    <form id="survey-form">
+      <label id="name-label" for="person_name">Name
+        <input id="name" type="text" placeholder="Enter your name" name="person_name" required>
+      </label>
+      <label id="email-label" for="email">Email
+        <input id="email" type="email" placeholder="Enter your email" name="email" required>
+      </label>
+      <label id="number-label" for="age">Age
+        <input id="number" type="number" placeholder="Enter your number" name="age" min="1" max="101" required>
+      </label>
+      <fieldset class="rbtn">
+        <legend>Gender</legend>
+      <label><input type="radio" name="gender" value="male" checked>Male</label>
+        <label><input type="radio" name="gender" value="female">Female</label>
+      </fieldset>
+       <fieldset class="rbtn">
+        <legend>Did u got affected by corona already?</legend>
+      <label><input type="radio" name="recovered" value="yes" checked>Yes</label>
+        <label><input type="radio" name="recovered" value="no">No</label>
+      </fieldset>
+      <label for="zone" class="elements">Choose the severity for contamination</label>
+<select name="zone" id="areazone" required>
+      <option disabled selected value>Select one</option>
+  <option value="red">Red Zone (high)</option>
+  <option value="orange">Orange Zone (moderate)</option>
+  <option value="yellow">Yellow Zone (low)</option>
+  <option value="green">Green Zone (nil)</option>
+</select>
+      <fieldset class="cbtn">
+        <legend>Select all that apply</legend>
+      <label><input type="checkbox" name="symptoms" value="cold" >Cold</label>
+        <label><input type="checkbox" name="symptoms" value="cough">Dry Cough</label>
+        <label><input type="checkbox" name="symptoms" value="sore throat">Sore Throat</label>
+        <label><input type="checkbox" name="symptoms" value="fever">Fever</label>
+        <label><input type="checkbox" name="symptoms" value="diarrhoea">Diarrhoea</label>
+        <label><input type="checkbox" name="symptoms" value="headache">Headache</label>
+        <label><input type="checkbox" name="symptoms" value="notastesmell">Loss of taste and smell</label>
+      </fieldset>
+      <label class="elements">Would you like to add any other information?</label><br>
+     <textarea placeholder="Please write here to tell us" id="comments" rows="6" cols="55" ></textarea><br>
+      <button class="sub" type="submit" Value="Submit">Submit</button>
+    </form>
+     </div>
+  </main>
+</body>

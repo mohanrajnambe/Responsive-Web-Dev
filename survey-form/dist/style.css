@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+body{
+  background-image:linear-gradient(90deg, rgba(58, 58, 158, 0.4),rgba(136, 136, 206, 0.4)),url(https://www.health.harvard.edu/media/content/images/GettyImages-1200706447-crop.jpg);
+background-size:cover;
+}
+h1{
+  font-size:40px;
+}
+header{
+  text-align: center;
+  font-family:'Merienda', cursive;;
+}
+.rbtn{
+  display:flex;
+  border-color: orange;
+  margin:20px;
+}
+textarea{
+  resize:none;
+  margin: 10px auto 20px 20px;
+  border-color:orange;
+  border-width:5px;
+  border-radius:10px;
+  font-size:18px;
+  background-size:inherit;
+}
+.cbtn{
+  display:flex;
+  border-color: orange;
+  margin:20px;
+   background-size:inherit;
+}
+.sub{
+  margin:20px;
+  background-color:#9D1B6F;
+  padding:10px 250px 10px 250px;
+  font-family:cursive;
+  font-size: 20px;
+  color:white;
+  border-color:cyan;
+  border-width:3px;
+   background-size:inherit;
+}
+#survey-form{
+  display:inline-block;
+  background-color:#1C2143;
+  color:white;
+  margin: auto;
+  text-align:justify;
+  font-family:cursive; 
+  font-size:20px;
+  padding: 40px;
+  border-radius: 10px;
+   background-size:inherit;
+}
+input{
+  padding:15px;
+  border-radius: 8px;
+  margin-top:10px;
+  font-size:18px;
+   background-size:inherit;
+}
+.form{
+  display:block;
+  text-align:center;
+  background-size:inherit;
+  max-width:100%
+}
+#name-label,#email-label,#number-label{
+  display:flex;
+  flex-direction:column;
+  padding: 20px;
+  background-size:inherit;
+}
+.elements{
+  padding:20px;
+  background-size:inherit;
+}
+#areazone{
+  display:flex;
+  align-items:center;
+  margin-left: 20px;
+  margin-top:15px;
+  padding:15px 350px 15px 10px;
+  font-size:18px;
+  text-align:left;
+  background-size:inherit;
+}
